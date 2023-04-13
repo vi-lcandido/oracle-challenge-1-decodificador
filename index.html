@@ -8,27 +8,37 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <img src="./img/alura-logo.svg" alt="logo-alura" />
-    <div class="container">
-      <h1>Digite seu texto</h1>
-      <img src="./img/info.svg" alt="warning-logo" /><small
-        >Apenas letras minúsculas e sem acento</small
-      >
-      <div class="button-flex">
-        <button>Criptografar</button>
-        <button>Descriptografar</button>
+    <div class="flex-container">
+      <header>
+        <img
+          class="alura-logo"
+          height="35rem"
+          src="./img/alura-logo.svg"
+          alt="logo-alura"
+        />
+      </header>
+      <div class="container">
+        <h1>Digite seu texto</h1>
+        <input type="text" placeholder="Escrava qui" />
+        <img src="./img/info.svg" alt="warning-logo" /><small
+          >Apenas letras minúsculas e sem acento</small
+        >
+        <div class="buttons">
+          <button class="cripto">Criptografar</button>
+          <button class="descripto">Descriptografar</button>
+        </div>
       </div>
+      <aside class="translate-container">
+        <div>
+          <img src="./img/aside-img.svg" alt="boy-searching" />
+          <p>Nenhuma mensagem encontrada</p>
+          <small>
+            Digite um texto que você deseja criptografar ou descriptografar
+          </small>
+        </div>
+        <button>Copiar</button>
+      </aside>
     </div>
-    <aside class="translate-container">
-      <div>
-        <img src="./img/aside-img.svg" alt="boy-searching" />
-        <p>Nenhuma mensagem encontrada</p>
-        <small>
-          Digite um texto que você deseja criptografar ou descriptografar
-        </small>
-      </div>
-      <button>Copiar</button>
-    </aside>
     <footer>
       <p>Desenvolvido por Vitória Candido</p>
     </footer>

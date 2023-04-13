@@ -8,7 +8,7 @@
 
 :root {
     --font: "Inter", sans-serif;
-    --bg: #E5E5E5;
+    --bg: #F3F5FC;
     --bg-secondary: #FFFFFF;
     --text: #0A3871;
     --text-secondary: #495057;
@@ -20,3 +20,27 @@
     --shadow: 0px 0px 10px #e6e6e6;
     --shadow-error: 0px 0px 10px var(--actions); */
 }
+
+
+.flex-container{
+    padding: 40px 70px;
+    border: 1px solid red;
+    background-color: var(--bg);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    height: 100%;
+}
+.container{
+    border: 1px solid rgb(0, 60, 255);
+    height: 100vh;
+}
+
+aside.translate-container{
+    background-color: var(--bg-secondary);
+
+    border-radius: 32px;
+}
+/* footer{
+    background: red;
+} */
