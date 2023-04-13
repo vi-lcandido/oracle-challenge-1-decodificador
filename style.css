@@ -1,0 +1,22 @@
+/*importação da fonte personalizada icons*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Inter", sans-serif;
+    --bg: #E5E5E5;
+    --bg-secondary: #FFFFFF;
+    --text: #0A3871;
+    --text-secondary: #495057;
+    --text-placeholder: #8b8b8b;
+    /* --primary: #e53170;
+    --secondary: #b07289;
+    --actions: #f25f4c;
+    --highlight: #ffffff;
+    --shadow: 0px 0px 10px #e6e6e6;
+    --shadow-error: 0px 0px 10px var(--actions); */
+}
