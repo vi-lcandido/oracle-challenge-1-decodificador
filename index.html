@@ -18,23 +18,38 @@
     </header>
     <div class="flex-container">
       <div class="container">
-        <h1>Digite seu texto</h1>
-        <input type="text" placeholder="Escrava qui" />
-        <img src="./img/info.svg" alt="warning-logo" /><small
-          >Apenas letras minúsculas e sem acento</small
-        >
-        <div class="buttons">
-          <button class="cripto">Criptografar</button>
-          <button class="descripto">Descriptografar</button>
+        <div class="txt-container">
+          <textarea
+            type="text"
+            placeholder="Digite seu texto aqui"
+            cols="50"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="btns-container">
+          <img
+            src="./img/info.svg"
+            alt="warning-logo"
+            height="16px"
+            width="16px"
+          /><small>Apenas letras minúsculas e sem acento</small>
+          <div class="btns">
+            <button class="cripto">Criptografar</button>
+            <button class="descripto">Descriptografar</button>
+          </div>
         </div>
       </div>
-      <aside class="translate-container">
-        <img src="./img/aside-img.svg" alt="boy-searching" />
-        <p>Nenhuma mensagem encontrada</p>
-        <small>
-          Digite um texto que você deseja criptografar ou descriptografar
-        </small>
-        <button>Copiar</button>
+      <aside class="aside-container">
+        <div class="translate-container">
+          <img class="boy" src="./img/aside-img.svg" alt="boy-searching" />
+          <h4>Nenhuma mensagem encontrada</h4>
+          <small>
+            Digite um texto que você deseja criptografar ou descriptografar
+          </small>
+        </div>
+        <!-- <div class="btn-copy">
+          <button class="btn">Copiar</button>
+        </div> -->
       </aside>
     </div>
     <footer>
